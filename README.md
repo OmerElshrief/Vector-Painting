@@ -1,6 +1,6 @@
 # Vector painting application
 
-#Description:-
+## Description:-
 Painting 1 is an application that performs Graphical Drawing for some supported shapes like Circle-Triangle-Rectangle-etc…
 It’s coded in Java with NetBeans IDE,  It’s a Graphical user Interface .
 Application Features:-
@@ -16,7 +16,7 @@ Painting 1 application Provides users with some nice features like:-
 8- Flexible and use no memory.
 9- Very simple to use.
 
-# Design Overview:-
+## Design Overview:-
 ⦁	Let’s  consider a very Simple Design, Starting with 2 Main Interface (DrawingEngine.java & Shape.Java)
 ⦁	Then two main Classes (Shapes: Implementing Shape Interface , DrawingEngine2: Implementing DrawingEngine)
 ⦁	Shape Classes (Square , Circle , Triangle , Rectangle , Ellipse , Line Segment) That extends the Shapes Class.
@@ -24,8 +24,8 @@ Painting 1 application Provides users with some nice features like:-
 ⦁	NewShape Class which is responsible for Attaching the new Shape to the application and working with it.
 
 
-# Description for Some important Functions:-
-### The Cloning method:-
+## Description for Some important Functions:-
+#### The Cloning method:-
 In this method, Java Reflection is used to get the class name of the selected shape then creating a new instant of this class, Then assigning the new object properties with Selected shape -to be copied-properties, The add this new object to the array of shapes of the DrawingEngine.
 Codes:-
 //For getting the Class Name of the selected shape to be copied using reflection:
@@ -37,7 +37,7 @@ s.pro = new HashMap(shape.getProperties());
 s.setColor(shape.getColor());
  s.setFillColor(shape.getFillColor());
 
-### Add Plugin Function:-
+#### Add Plugin Function:-
 In this Function Java reflection is used:
 Method used is "URLClassLoader" , 
 Constructor: URLClassLoader(URL[] urls) ,
@@ -63,13 +63,13 @@ For Creating a Shape:
 
 The user is asked to enter the Shape Properties like “Radius” for circle , “SideLength” for a square, Then the User will be asked to enter the Postion of the Shape (X,Y).
 
-### Selecting a shape:
+#### Selecting a shape:
 The user can select a shape to Edit/Move/Copy from the Compobox on the right,
 Move:
 
 The user is asked to enter the New position of the Selected Shape.
 
-### Edit:
+#### Edit:
 By selecting a Shape from the ComboBox , then clicking the Button “Edit” The user will be provided with a Dialog box to enter the new properties of the shape.
 
 ###Copy:-
