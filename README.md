@@ -72,10 +72,10 @@ The user is asked to enter the New position of the Selected Shape.
 #### Edit:
 By selecting a Shape from the ComboBox , then clicking the Button “Edit” The user will be provided with a Dialog box to enter the new properties of the shape.
 
-###Copy:-
+#### Copy:-
 Select a shape from ComboBox then Click Copy , the user will enter the new dimensions for the copied shape.
 Add New Plugin:-
 By clicking the Button “Add Plugin” the user will be provided with a Dialog box to enter the Class Name, then a Filechoose to search for the class, a new Button will be generated in the Buttons field named by the new Shape, then you can draw this shape by pressing this button.
 
-###Undo:
+#### Undo:
 By pressing “Undo” Button, the Latest move will be reversed, If you added a new shape it will be removed, and if you removed a shape it will be added again.
