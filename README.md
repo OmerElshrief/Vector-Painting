@@ -1,5 +1,5 @@
 # Vector painting application
-#__________________________________________________
+
 #Description:-
 Painting 1 is an application that performs Graphical Drawing for some supported shapes like Circle-Triangle-Rectangle-etc…
 It’s coded in Java with NetBeans IDE,  It’s a Graphical user Interface .
